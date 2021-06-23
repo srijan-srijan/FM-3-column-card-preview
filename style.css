@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* colors */
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+
+  /* neutral */
+  --paragraphColor: hsla(0, 0%, 100%, 0.75);
+  --othersColor: hsl(0, 0%, 95%);
+}
