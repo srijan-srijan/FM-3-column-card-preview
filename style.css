@@ -13,3 +13,70 @@
   --paragraphColor: hsla(0, 0%, 100%, 0.75);
   --othersColor: hsl(0, 0%, 95%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--othersColor);
+  font-family: "Lexend Deca", "Big Shoulders Display";
+  background: #333;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+}
+
+.cards .card {
+  padding: 40px;
+}
+
+.cards .card img {
+  margin-bottom: 25px;
+}
+
+.cards .card .heading {
+  font-family: "Big Shoulders Display";
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.cards .card .sub-heading {
+  color: var(--paragraphColor);
+  font-size: 15px;
+  margin-bottom: 75px;
+}
+
+.cards .card .my-btn {
+  background-color: #eee;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.card.first {
+  background-color: var(--brightOrange);
+}
+.card.second {
+  background-color: var(--darkCyan);
+}
+.card.third {
+  background-color: var(--veryDarkCyan);
+}
+
+.card.first .my-btn {
+  color: var(--brightOrange);
+}
+
+.card.second .my-btn {
+  color: var(--darkCyan);
+}
+
+.card.third .my-btn {
+  color: var(--veryDarkCyan);
+}
