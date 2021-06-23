@@ -31,6 +31,7 @@ body {
   display: flex;
   overflow: hidden;
   border-radius: 10px;
+  min-width: 760px;
 }
 
 .cards .card {
@@ -100,6 +101,7 @@ body {
   .cards {
     display: flex;
     flex-direction: column;
+    min-width: 0;
   }
 
   .cards .card .sub-heading {
