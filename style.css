@@ -35,10 +35,15 @@ body {
 
 .cards .card {
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cards .card img {
   margin-bottom: 25px;
+  display: inline-block;
+  align-self: flex-start;
 }
 
 .cards .card .heading {
@@ -55,10 +60,18 @@ body {
 
 .cards .card .my-btn {
   background-color: #eee;
-  display: inline-block;
   padding: 10px 25px;
   border-radius: 20px;
   font-size: 13px;
+  border: 2px solid transparent;
+  align-self: flex-start;
+}
+
+.cards .card .my-btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: #eee;
+  border: 2px solid #eee;
 }
 
 .card.first {
