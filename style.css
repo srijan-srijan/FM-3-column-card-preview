@@ -29,6 +29,8 @@ body {
 
 .cards {
   display: flex;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .cards .card {
@@ -79,4 +81,7 @@ body {
 
 .card.third .my-btn {
   color: var(--veryDarkCyan);
+}
+
+@media only screen and (max-width: 375px) {
 }
